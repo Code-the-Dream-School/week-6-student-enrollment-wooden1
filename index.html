@@ -14,10 +14,18 @@
       <div class="jumbotron bg-dark text-white">
         <h1 class="display-4">Student Enrollment program</h1>
         <hr class="my-4">
-          <button class="btn btn-outline-info" type="button" id="students">Students</button>
-          <button class="btn btn-outline-info" type="button" id="Courses">courses</button>
-          <button class="btn btn-outline-info" type="button" id="new_student">New Student</button>
+          <button class="btn btn-outline-info" type="button" aria-expanded="false" aria-controls="student-section" data-toggle="collapse" data-target="#student-section" id="students">Students</button>
+          <button class="btn btn-outline-info" type="button" aria-expanded="false" aria-controls="course-section" data-toggle="collapse" data-target="#course-section"
+            id="courses">Courses</button>
+          <button class="btn btn-outline-info" type="button" data-toggle="collapse" data-target="#new_student-card" aria-expanded="false"
+          aria-controls="new_student-card"
+            id="new_student">New Student</button>
       </div>
+      <main>
+        <secion class="container collapse" id="student-section"></secion>
+        <secion class="collapse" id="course-section"></secion>
+        <secion class="collapse" id="new_student-card"></secion>
+      </main>
     </div>
 
 
