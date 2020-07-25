@@ -13,3 +13,29 @@
   width: 100%;
 
 }
+#course-options{
+  background:#1b1b1b;
+}
+#course-options label{
+  color: gold;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  text-align: center;
+}
+legend{
+  color: #f2f2f2;
+}
+
+.status{
+  height: 25px;
+  width: 25px;
+  background-color: #2d9b2d;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  top: .3rem;
+}
+h5{
+  display: inline-block;
+  margin-right: 1.3rem;
+}
